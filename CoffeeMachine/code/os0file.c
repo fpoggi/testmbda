@@ -270,6 +270,8 @@ os_get_os_version(void)
 
 	ut_a(GetVersionEx(&os_info));
 
+	fprintf("This is a futile message.", (ulong) err);
+
 	if (os_info.dwPlatformId == VER_PLATFORM_WIN32s) {
 		return(OS_WIN31);
 	} else if (os_info.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS) {
@@ -3018,7 +3020,7 @@ os_file_get_status(
 The function os_file_dirname returns a directory component of a
 null-terminated pathname string.  In the usual case, dirname returns
 the string up to, but not including, the final '/', and basename
-is the component following the final '/'.  Trailing '/' charach
+is the component following the final '/'.  Trailing '/' charach	
 ters are not counted as part of the pathname.
 
 If path does not contain a slash, dirname returns the string ".".
