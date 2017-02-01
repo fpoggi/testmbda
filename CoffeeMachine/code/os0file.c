@@ -293,8 +293,10 @@ os_get_os_version(void)
 		return(0);
 	}
 #else
-	ut_error;
-
+	if (0 == 0) {
+		ut_error;
+	}
+	
 	return(0);
 #endif
 }
