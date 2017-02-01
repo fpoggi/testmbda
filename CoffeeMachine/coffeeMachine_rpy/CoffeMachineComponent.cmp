@@ -1,0 +1,151 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6103821
+{ IComponent 
+	- _id = GUID d0c9c3d8-296c-4a01-858f-80f5e1888664;
+	- _myState = 139264;
+	- _name = "CoffeMachineComponent";
+	- _modifiedTimeWeak = 6.20.2012::9:38:5;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID c7d40c15-8668-491d-8edc-01c0886806ad;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 1.1.1970::2:0:0;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 522f16b1-444f-4149-8d81-d22c0b1b496f;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 522f16b1-444f-4149-8d81-d22c0b1b496f;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MSVC";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "MSVC,MSVCDLL,MSVCStandardLibrary,Microsoft,MicrosoftDLL,MSVC,MSVCDLL,VxWorks,VxWorks6diab,VxWorks6gnu,VxWorks6diab_RTP,VxWorks6gnu_RTP,Solaris2,Cygwin,MSStandardLibrary,MSVCStandardLibrary,MicrosoftWinCE600,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoMomentics,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged653,WorkbenchManaged_RTP";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Debug";
+			- _modifiedTimeWeak = 6.20.2012::9:38:11;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID c54f0807-b4e1-45fc-98d1-8ad73225d076;
+					- _modifiedTimeWeak = 1.1.1970::2:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Program Files\\Telelogic\\Telelogic Rhapsody 7.2\\Project\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 3cc4babe-ed2c-4bc3-8d9f-faea9a349681;
+					- _modifiedTimeWeak = 1.1.1970::2:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Program Files\\Telelogic\\Telelogic Rhapsody 7.2\\Project\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 3c35181e-b3bd-43cc-9908-feb4daa261ec;
+				- _myState = 8192;
+				- _name = "Debug";
+				- _modifiedTimeWeak = 1.1.1970::2:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 6.20.2012::9:38:11;
+			- strongCGTime = 6.20.2012::9:38:11;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "CoffeePackage.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CoffeePackage";
+			- _id = GUID 54eadf93-d640-4094-ae78-e7075b59ef06;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 6.20.2012::9:38:5;
+	- strongCGTime = 7.2.2008::14:51:12;
+}
+

@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.8.0 * 6103821
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "coffeeMachine.rpy" ""
+	"coffeeMachine_rpy\\CoffeMachineComponent.cmp" "CoffeMachineComponent"
+	"coffeeMachine_rpy\\CoffeePackage.sbs" "CoffeePackage"
+	
+}
+
