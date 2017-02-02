@@ -1,0 +1,18 @@
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
+
+steps:
+- commit: initial commit
+- commit: added source file
+- release: created, with tag "milestone" (web interface)
+- release: added tag "v1.0" (web interface)
+- commit: modified file
+- git tag bugfix -m "A bug has been fixed" (command line, annotated tag)
+- commit: added fprintf in c source file
+- git tag custom-code (command line, lightweight tag)
+- git tag feature-added (command line, lightweight tag)
+- commit: added an if statement in the c source file
+- Non riesco ad aggiungere 2 volte lo stesso tag. Ho provato a inserire da command line sia annotated che lightweight tag, e mi dice "fatal: il tag 'milestone' esiste già.
+- da web interface lo inserisco, ma mi modifica title e description della release esistente con quel tag.
+
+ 
+
